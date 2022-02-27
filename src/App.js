@@ -1,4 +1,4 @@
-inport TodoApp from './Todo'
+import TodoApp from './Todo'
 
 function App(){
   return <TodoApp />

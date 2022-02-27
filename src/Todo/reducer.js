@@ -16,7 +16,7 @@ export const initState = {
           case ADD_JOB:
             return {
               ...state,
-              jobs: [...state.jobs, action.payload]
+              jobs: [action.payload, ...state.jobs]
             }
           case DELETE_JOB:
             const newJobs = [...state.jobs]
