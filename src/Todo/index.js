@@ -35,11 +35,10 @@ function App() {
                     }}
                 />
                 <button type='submit'>Add</button>
-                <button type="button">Add sfdgfg</button>
             </form>
 
 
-            <ul>
+            <ul className='jobs'>
                 {jobs.map((job, index) => (
                     <li key={index}>
                         {job}
